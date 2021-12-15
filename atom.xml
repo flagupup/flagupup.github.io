@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>但行好事，莫问前程</title>
+  
+  <subtitle>这是副标题</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-12-15T12:51:13.868Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>jiangliuer</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>how-to-build-your-own-blog</title>
+    <link href="http://example.com/2021/12/15/how-to-build-your-own-blog/"/>
+    <id>http://example.com/2021/12/15/how-to-build-your-own-blog/</id>
+    <published>2021-12-15T12:51:13.000Z</published>
+    <updated>2021-12-15T12:51:13.868Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
