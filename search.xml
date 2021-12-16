@@ -26,4 +26,24 @@
         <tag>hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>article-format</title>
+    <url>/2021/12/15/article-format/</url>
+    <content><![CDATA[<h2 id="文章格式从哪修改-文章开头段"><a href="#文章格式从哪修改-文章开头段" class="headerlink" title="文章格式从哪修改:文章开头段"></a>文章格式从哪修改:文章开头段</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:      #修改标题</span><br><span class="line">date:       #修改发表时间</span><br><span class="line">tags:       #修改tag，可以添加多个tag</span><br><span class="line">-tag1</span><br><span class="line">-tag2</span><br><span class="line">-tag3</span><br><span class="line">categories: #修改分类，添加多个分类，以第一个为默认分类</span><br><span class="line">-category1</span><br><span class="line">-category2</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="在hexo博客中插入代码段"><a href="#在hexo博客中插入代码段" class="headerlink" title="在hexo博客中插入代码段"></a>在hexo博客中插入代码段</h2><h3 id="以代码块的形式插入"><a href="#以代码块的形式插入" class="headerlink" title="以代码块的形式插入"></a>以代码块的形式插入</h3><p><a href="https://hui-shao.cn/hexo-code-block/">Hexo中代码块的两种写法”及“在代码块中使用反引号(代码块开始标记)的方法</a></p>
+<p><strong>代码示例：</strong><br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;iostream&gt;;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;Hello World&quot; &lt;&lt; endl;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="插入GitHub-Gist"><a href="#插入GitHub-Gist" class="headerlink" title="插入GitHub Gist"></a>插入GitHub Gist</h3><p>1.前往<a href="https://gist.github.com/">GitHub Gist</a>创建所需的 Gist 代码片段。<br>2.将 Gist Embed Script 直接插入到博客的Markdown正文中。<br><strong>代码示例：</strong></p>
+<p><script src="https://gist.github.com/flagupup/291707eed6dd356b0994537de9e5af9d.js"></script></p>
+<hr>
+<p><strong>两种方法，显然前者更加好看</strong></p>
+<h2 id="改变文字颜色"><a href="#改变文字颜色" class="headerlink" title="改变文字颜色"></a>改变文字颜色</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">将文字颜色变成红色有两种写法：</span><br><span class="line">&lt;span style=&quot;color:red;&quot;&gt;红颜色的字&lt;/span&gt;</span><br><span class="line">&lt;span style=&quot;color:#FF0000;&quot;&gt;红颜色的字&lt;/span&gt;</span><br></pre></td></tr></table></figure>
+<p>例子:<br><span style="color:red;">红颜色的字</span><br><span style="color:#FF0000;">红颜色的字</span><br><span style="color:#3498DB;">蓝链的颜色</span></p>
+<hr>
+<p><a href="https://htmlcolorcodes.com/">HTML颜色代码查询</a></p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>代码段</tag>
+      </tags>
+  </entry>
 </search>

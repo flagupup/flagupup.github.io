@@ -188,6 +188,81 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/15/article-format/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="jiangliuer">
+      <meta itemprop="description" content="这是引言部分">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="但行好事，莫问前程">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/12/15/article-format/" class="post-title-link" itemprop="url">article-format</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-12-15 22:31:43" itemprop="dateCreated datePublished" datetime="2021-12-15T22:31:43+08:00">2021-12-15</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-16 01:20:05" itemprop="dateModified" datetime="2021-12-16T01:20:05+08:00">2021-12-16</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="文章格式从哪修改-文章开头段"><a href="#文章格式从哪修改-文章开头段" class="headerlink" title="文章格式从哪修改:文章开头段"></a>文章格式从哪修改:文章开头段</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title:      #修改标题</span><br><span class="line">date:       #修改发表时间</span><br><span class="line">tags:       #修改tag，可以添加多个tag</span><br><span class="line">-tag1</span><br><span class="line">-tag2</span><br><span class="line">-tag3</span><br><span class="line">categories: #修改分类，添加多个分类，以第一个为默认分类</span><br><span class="line">-category1</span><br><span class="line">-category2</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="在hexo博客中插入代码段"><a href="#在hexo博客中插入代码段" class="headerlink" title="在hexo博客中插入代码段"></a>在hexo博客中插入代码段</h2><h3 id="以代码块的形式插入"><a href="#以代码块的形式插入" class="headerlink" title="以代码块的形式插入"></a>以代码块的形式插入</h3><p><a target="_blank" rel="noopener" href="https://hui-shao.cn/hexo-code-block/">Hexo中代码块的两种写法”及“在代码块中使用反引号(代码块开始标记)的方法</a></p>
+<p><strong>代码示例：</strong><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;Hello World&quot; &lt;&lt; endl;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="插入GitHub-Gist"><a href="#插入GitHub-Gist" class="headerlink" title="插入GitHub Gist"></a>插入GitHub Gist</h3><p>1.前往<a target="_blank" rel="noopener" href="https://gist.github.com/">GitHub Gist</a>创建所需的 Gist 代码片段。<br>2.将 Gist Embed Script 直接插入到博客的Markdown正文中。<br><strong>代码示例：</strong></p>
+<p><script src="https://gist.github.com/flagupup/291707eed6dd356b0994537de9e5af9d.js"></script></p>
+<hr>
+<p><strong>两种方法，显然前者更加好看</strong></p>
+<h2 id="改变文字颜色"><a href="#改变文字颜色" class="headerlink" title="改变文字颜色"></a>改变文字颜色</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">将文字颜色变成红色有两种写法：</span><br><span class="line">&lt;span style=&quot;color:red;&quot;&gt;红颜色的字&lt;/span&gt;</span><br><span class="line">&lt;span style=&quot;color:#FF0000;&quot;&gt;红颜色的字&lt;/span&gt;</span><br></pre></td></tr></table></figure>
+<p>例子:<br><span style="color:red;">红颜色的字</span><br><span style="color:#FF0000;">红颜色的字</span><br><span style="color:#3498DB;">蓝链的颜色</span></p>
+<hr>
+<p><a target="_blank" rel="noopener" href="https://htmlcolorcodes.com/">HTML颜色代码查询</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/15/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -384,7 +459,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -397,7 +472,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
